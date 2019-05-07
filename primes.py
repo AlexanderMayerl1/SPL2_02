@@ -2,8 +2,8 @@
 # alle primzahlen von 1 bis 1000
 
 for i in range(1, 1001):
-	for y in(2, 3, 5, 7):
-		if(i%y != 0):
+	for y in(2, i):
+		if(i%y== 0):
+			if(y == i):
+				print(i)
 			break
-		elif(y == 7):
-			print(i)
